@@ -1,0 +1,14 @@
+{
+  "name": "wp-foundation-sites",
+  "description": "A no-frills starter theme using Zurb Foundation Sites",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.1.0",
+    "motion-ui": "~1.1.0"
+  }
+}

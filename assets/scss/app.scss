@@ -1,0 +1,55 @@
+/*--------------------------------------------------
+  Import foundation before your custom styles
+--------------------------------------------------*/
+@import "foundation";
+
+
+/*--------------------------------------------------
+  Global site layout
+--------------------------------------------------*/
+.site-header {
+  padding: $global-margin 0;
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(0,0,0,0.1);
+}
+
+.site-title {
+  font-size: rem-calc(24);
+  font-weight: $global-weight-bold;
+}
+
+.site-description {
+  display: block;
+}
+
+.site-container {
+  padding: $global-margin*2 0;
+}
+
+.site-footer {
+  padding: $global-margin*2 0;
+  box-shadow: 0 -0.25rem 0.25rem 0 rgba(0,0,0,0.1);
+}
+
+
+/*--------------------------------------------------
+  Comments & Forms
+--------------------------------------------------*/
+.post-comments {}
+.commentlist {
+  @extend .no-bullet;
+}
+.comment {
+  .children {
+    list-style: none;
+    margin-left: $global-margin*2;
+  }
+}
+.comment-body{
+  margin-bottom: $global-margin*2;
+}
+.comment-reply-link {
+  @extend .button, .small;
+}
+[type=submit] {
+  @extend .button;
+}
