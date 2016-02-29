@@ -9,6 +9,7 @@
   ],
   "dependencies": {
     "foundation-sites": "~6.2.0",
+    "what-input": "~2.0.0",
     "motion-ui": "~1.1.0"
   }
 }
