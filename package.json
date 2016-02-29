@@ -1,9 +1,29 @@
 {
   "name": "wp-foundation-sites",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andycochran/wp-foundation-sites.git"
+  },
+  "license": "GPL-2.0 AND MIT",
   "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.3.13",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.3.13",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.3.13",
+    "babel-plugin-transform-es2015-block-scoping": "^6.4.0",
+    "babel-plugin-transform-es2015-classes": "^6.3.15",
+    "babel-plugin-transform-es2015-destructuring": "^6.3.15",
+    "babel-plugin-transform-es2015-parameters": "^6.3.26",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.5.0",
+    "babel-plugin-transform-es2015-spread": "^6.4.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.3.13",
+    "babel-register": "^6.5.2",
+
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.1.0",
     "gulp-minify-css": "^1.2.1",

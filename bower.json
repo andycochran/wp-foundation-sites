@@ -8,7 +8,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "foundation-sites": "~6.1.0",
+    "foundation-sites": "~6.2.0",
     "motion-ui": "~1.1.0"
   }
 }

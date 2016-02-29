@@ -24,6 +24,9 @@ gulp.task('scripts', function() {
   return gulp.src([
       './assets/js/scripts/*.js'
     ])
+    .pipe(plugins.babel({
+        'presets': ['es2015']
+    }))
     .pipe(plugins.concat('scripts.js'))
     .pipe(gulp.dest('./assets/js'))
     .pipe(plugins.rename({suffix: '.min'}))
@@ -60,6 +63,9 @@ gulp.task('foundation-js', function() {
       './bower_components/foundation-sites/js/foundation.toggler.js',
       './bower_components/foundation-sites/js/foundation.tooltip.js',
     ])
+    .pipe(plugins.babel({
+        'presets': ['es2015']
+    }))
     .pipe(plugins.concat('foundation.js'))
     .pipe(gulp.dest('./assets/js'))
     .pipe(plugins.rename({suffix: '.min'}))
