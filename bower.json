@@ -8,8 +8,8 @@
     "bower_components"
   ],
   "dependencies": {
-    "foundation-sites": "~6.2.0",
-    "what-input": "~2.0.0",
+    "foundation-sites": "~6.3.1",
+    "what-input": "~4.0.3",
     "motion-ui": "~1.1.0"
   }
 }
